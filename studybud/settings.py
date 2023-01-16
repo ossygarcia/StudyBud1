@@ -25,7 +25,7 @@ SECRET_KEY = 'ueyeryuyiwiwiwi-3#av2c6nptlbbb6^muqkchu&fe3wv&n$t2+g$v!ir-f5%doocb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://mystudy.azurewebsites.net']
 
 
 # Application definition
@@ -132,7 +132,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 MEDIA_URL = '/images/'
 
-STATICFILES_DIRS = [BASE_DIR / 'static']
+#STATICFILES_DIRS = [BASE_DIR / 'static']
 STATIC_ROOT = BASE_DIR /'staticfiles'
 
 MEDIA_ROOT = BASE_DIR / 'static/images'
