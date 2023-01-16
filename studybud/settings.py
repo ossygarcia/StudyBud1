@@ -26,7 +26,7 @@ SECRET_KEY = 'ueyeryuyiwiwiwi-3#av2c6nptlbbb6^muqkchu&fe3wv&n$t2+g$v!ir-f5%doocb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://mystudy.azurewebsites.net']
+ALLOWED_HOSTS = ['https://mystudy.azurewebsites.net','0.0.0.0','mystudy.azurewebsites.net']
 
 
 # Application definition
