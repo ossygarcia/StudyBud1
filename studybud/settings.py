@@ -140,6 +140,15 @@ MEDIA_ROOT = BASE_DIR / 'static/images'
 
 STATIC_ROOT =os.path.join(BASE_DIR,'static')
 
+SECURE_HSTS_SECONDS = 31536000
+CSRF_COOKIE_SECURE = True
+SESSION_COOKIE_SECURE = True
+SECURE_SSL_REDIRECT = True
+
+SECURE_CONTENT_TYPE_NOSNIFF = True
+
+
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
